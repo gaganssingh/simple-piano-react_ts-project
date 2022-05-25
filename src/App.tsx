@@ -1,3 +1,13 @@
+import { Footer } from "./components/Footer";
+import { Logo } from "./components/Logo";
+import styles from "./App.module.css";
+
 export function App() {
-  return <h1>Simple Piano</h1>;
+  return (
+    <div className={styles.app}>
+      <Logo />
+      <main className={styles.content} />
+      <Footer />
+    </div>
+  );
 }
