@@ -22,3 +22,18 @@ code {
   --footer-height: 60px;
   --logo-height: 8rem;
 }
+
+/* RESETS for <button> */
+button {
+  font: inherit;
+  color: inherit;
+  margin: 0;
+  padding: 0;
+  width: auto;
+  line-height: normal;
+  background: none;
+  appearance: none;
+  border: none;
+  border-radius: 0;
+  cursor: pointer;
+}
